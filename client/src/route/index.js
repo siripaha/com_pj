@@ -10,36 +10,24 @@ import RootFinding from "../views/RootFinding";
 
 const routes = [
   {
-    path: "/",
-    element: <Main />,
+    path: '/',
+    children: [
+      { path: '/', element: <Main/>},
+    ]
   },
+
   {
-    path: "com-pj",
-    element: <Main />,
-  },
-  {
-    path: "unit1",
-    element: <B2s />,
-  },
-  {
-    path: "unit2",
-    element: <Elimination />,
-  },
-  {
-    path: "unit3",
-    element: <Interpolation />,
-  },
-  {
-    path: "unit4",
-    element: <Differentiation />,
-  },
-  {
-    path: "unit5",
-    element: <Integration />,
-  },
-  {
-    path: "unit6",
-    element: <RootFinding />,
+    path: 'com-pj',
+    children: [
+      { path: '/', element: <Main/>},
+
+      { path: 'unit1', element: <B2s/>},
+      { path: 'unit2', element: <Elimination/>},
+      { path: 'unit3', element: <Interpolation/>},
+      { path: 'unit4', element: <Differentiation/>},
+      { path: 'unit5', element: <Integration/>},
+      { path: 'unit6', element: <RootFinding/>},
+    ]
   },
 ];
 

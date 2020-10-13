@@ -40,7 +40,7 @@ export default function Page() {
   };
 
   const back = () => {
-    navigate("/");
+    navigate("/com-pj");
   };
 
   return (
