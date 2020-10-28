@@ -72,7 +72,7 @@ export default function MainPage() {
   const navigate = useNavigate();
 
   const nextPage = (page) => {
-    navigate("/com-pj/"+page);
+    navigate("/com_pj/"+page);
   }
 
   return (

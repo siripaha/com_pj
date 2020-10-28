@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": "https://siripaha.github.io/com_pj/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",

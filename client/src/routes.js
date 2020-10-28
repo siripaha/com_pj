@@ -14,7 +14,7 @@ const routes = [
     element: <Main />,
   },
   {
-    path: "com-pj",
+    path: "com_pj",
     element: <Main />,
   }, 
   {

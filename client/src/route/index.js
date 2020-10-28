@@ -17,7 +17,7 @@ const routes = [
   },
 
   {
-    path: 'com-pj',
+    path: 'com_pj',
     children: [
       { path: '/', element: <Main/>},
 

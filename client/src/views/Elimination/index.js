@@ -57,7 +57,7 @@ export default function Page() {
   const [x2, setx2] = useState("");
 
   const back = () => {
-    navigate("/com-pj");
+    navigate("/com_pj");
   };
 
   const generate = () => {
