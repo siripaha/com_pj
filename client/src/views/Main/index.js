@@ -20,7 +20,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        Numnim Website
+        siri Website
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -81,7 +81,7 @@ export default function MainPage() {
       <AppBar position="static" color="default" elevation={0} className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
-            61114440531 Muthita Munmueang
+          siri 61114440717
           </Typography>
         </Toolbar>
       </AppBar>

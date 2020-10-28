@@ -16,7 +16,7 @@ const routes = [
   {
     path: "com-pj",
     element: <Main />,
-  },
+  }, 
   {
     path: "b2s",
     element: <B2s />,
